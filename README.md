@@ -24,7 +24,7 @@ graph TD
 
 - **🧠 Hybrid ML & Heuristic Scoring Engine**
   Evaluates transaction risk on a dynamic scale of `0–100` using a Random Forest Classifier trained on synthetic transaction features, layered with weighted rule attributes. The system assesses multiple signals:
-  * Transaction amount & frequency velocity
+  * Transaction amount & frequency velocity.
   * Customer's historical averages and behavior ranges
   * Location changes and geographic anomalies
   * Unrecognized device fingerprints
@@ -33,7 +33,7 @@ graph TD
   * Failed authorization attempts in the last 24 hours
 
 - **🚦 AI Decision Thresholds**
-  The engine maps the risk score directly to clear, actionable recommendations:
+  The engine maps the risk score directly to clear, actionable recommendations :
   * **0–30** ➡️ `APPROVE`
   * **31–60** ➡️ `VERIFY`
   * **61–80** ➡️ `HOLD`
